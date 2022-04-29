@@ -31,8 +31,14 @@ public class ArithmeticTest {
     }
     
     @Test
-    public void powTest() {
+    public void powPrimerValorTest() {
         Arithmetic arith = new Arithmetic(2,2);
-        Assert.assertEquals(arith.pow(), 4);
+        Assert.assertEquals(arith.powPrimerValor(), 4);
+    }
+    
+    @Test
+    public void powSegundoValorTest() {
+        Arithmetic arith = new Arithmetic(2,2);
+        Assert.assertEquals(arith.powSegundoValor(), 4);
     }
 }

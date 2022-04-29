@@ -25,7 +25,11 @@ public class Arithmetic {
         return a/b;
     }
     
-    public int pow(){
+    public int powPrimerValor(){
         return a*a;
+    }
+    
+    public int powSegundoValor() {
+        return b*b;
     }
 }
